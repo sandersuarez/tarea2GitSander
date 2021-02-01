@@ -8,4 +8,28 @@ class Jugador {
         this.votos = votos;
         this.id = id;
     }
+    
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getVotos() {
+        return this.votos;
+    }
+
+    public void setVotos(int votos) {
+        this.votos = votos;
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
